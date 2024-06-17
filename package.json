@@ -1,0 +1,22 @@
+{
+  "name": "localfood",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config webpack.config.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@zxing/library": "^0.21.1",
+    "axios": "^1.7.2",
+    "quagga": "^0.6.16"
+  },
+  "devDependencies": {
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.0.4"
+  }
+}
